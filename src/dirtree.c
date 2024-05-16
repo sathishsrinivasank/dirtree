@@ -7,7 +7,7 @@
  *
  *----------------------------------------------------------------------------- 
  * Notes     - This program do not use any data structure to store directory
- *             information. This causes it to identify the last item in the 
+ *             information. This makes it unable to detect the last item in the 
  *             directory subtree, which results in imperfect solution.
  *             A better solution would be store the directory information in a
  *             data structure such as a linked list and call print function to 
